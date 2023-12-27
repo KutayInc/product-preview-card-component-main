@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+@media screen and (max-width: 767px) {
+  img {
+    content: url("../images/image-product-mobile.jpg");
+  }
+}
+@media screen and (min-width: 767px) {
+  img {
+    content: url("../images/image-product-desktop.jpg");
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
